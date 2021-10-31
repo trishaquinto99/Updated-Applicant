@@ -494,44 +494,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .3s ease;
-  background-color: rgba(116, 116, 116, 0.514);
-  border-radius: 100%;
-
-}
-
-
-.container-art:hover .overlay {
-  opacity: 1;
-}
-
-.icon {
-  color: white;
-  padding:45px 50px 45px 50px;  border:1px solid white; border-radius: 80%;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-
-.fa-user:hover {
-  color: #eee;
-}
-
-
 
 /*profile page*/
 #profile .education button{
