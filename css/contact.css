@@ -487,6 +487,9 @@ section {
   font-size: 14px;
   color: #6182ba;
 }
+.contact .info p a{
+  color: #6182ba;
+}
 
 .contact .info .email p {
   padding-top: 5px;
